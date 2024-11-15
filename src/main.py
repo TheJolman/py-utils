@@ -1,5 +1,9 @@
+from data_structures.linked_list import LinkedList
+
+
 def main() -> None:
-    print("hi mom")
+    mylist = LinkedList()
+    print(mylist)
 
 
 if __name__ == "__main__":
