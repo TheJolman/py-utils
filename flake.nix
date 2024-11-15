@@ -15,6 +15,7 @@
       devShells.default = pkgs.mkShell {
         packages = with pkgs; [
           python312
+          python312Packages.ipython
           python312Packages.pytest
 
           python312Packages.black
